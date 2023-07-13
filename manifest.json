@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Museum",
+  "name": "Ela's museum of random objects",
   "icons": [
     {
       "src": "favicon.ico",
