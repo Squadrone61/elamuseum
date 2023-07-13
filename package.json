@@ -1,6 +1,7 @@
 {
   "name": "museum",
   "version": "0.1.0",
+  "homepage": "http://squadrone61.github.io/elamuseum/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.77.3",
