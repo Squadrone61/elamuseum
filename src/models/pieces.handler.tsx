@@ -3,7 +3,6 @@ import { ThreeEvent, useFrame, useThree } from "@react-three/fiber";
 import { RefObject, useRef } from "react";
 import { Object3D } from "three";
 import { Piece, pieceData } from "./piece.data";
-import { BASE_URL } from "../helpers/enums";
 
 const spotLightArgs: Args<any> = [undefined, undefined, 150, 0.4, 1]
 
@@ -25,7 +24,7 @@ function Model({ piece }: { piece: Piece }) {
             ref.current?.rotation.copy(piece.pieceRot || piece.rot)
         }
     }
-    return <Gltf ref={ref} src={BASE_URL + '/models/' + piece.url} position={piece.pos} scale={piece.scale} rotation={piece.pieceRot || piece.rot} castShadow onClick={onClickCb} />
+    return <Gltf ref={ref} src={'models/' + piece.url} position={piece.pos} scale={piece.scale} rotation={piece.pieceRot || piece.rot} castShadow onClick={onClickCb} />
 }
 
 function PiecesHandler(args: any) {

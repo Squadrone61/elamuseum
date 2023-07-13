@@ -1,7 +1,6 @@
 import { useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 import { GLTF } from "three-stdlib";
-import { BASE_URL } from "../../helpers/enums";
 
 type GLTFResult = GLTF & {
   nodes: {
@@ -17,7 +16,7 @@ type GLTFResult = GLTF & {
 };
 
 export function Room(props: JSX.IntrinsicElements["group"]) {
-  const { nodes, materials } = useGLTF(BASE_URL+"models/room.gltf") as GLTFResult;
+  const { nodes, materials } = useGLTF("models/room.gltf") as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -51,4 +50,4 @@ export function Room(props: JSX.IntrinsicElements["group"]) {
   );
 }
 
-useGLTF.preload(BASE_URL+"models/room.gltf");
+useGLTF.preload("models/room.gltf");
