@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/elamuseum/static/css/main.bdbe2fac.css",
-    "main.js": "/elamuseum/static/js/main.8bbb6967.js",
+    "main.js": "/elamuseum/static/js/main.3cbb0f6c.js",
     "static/js/787.aebcff10.chunk.js": "/elamuseum/static/js/787.aebcff10.chunk.js",
     "index.html": "/elamuseum/index.html",
     "main.bdbe2fac.css.map": "/elamuseum/static/css/main.bdbe2fac.css.map",
-    "main.8bbb6967.js.map": "/elamuseum/static/js/main.8bbb6967.js.map",
+    "main.3cbb0f6c.js.map": "/elamuseum/static/js/main.3cbb0f6c.js.map",
     "787.aebcff10.chunk.js.map": "/elamuseum/static/js/787.aebcff10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdbe2fac.css",
-    "static/js/main.8bbb6967.js"
+    "static/js/main.3cbb0f6c.js"
   ]
 }
