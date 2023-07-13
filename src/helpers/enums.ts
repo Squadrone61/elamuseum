@@ -5,3 +5,4 @@ export enum Controls {
     right = 'right',
     jump = 'jump',
 }
+export const BASE_URL = 'elamuseum/'
